@@ -279,19 +279,13 @@ nav ul li a:hover {
     box-sizing: border-box;
 }
 
-.activities-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .activities-cards {
     display: flex;
     gap: 20px;
 }
 .activities-cards a {
     margin-top: 33px;
-    width: calc(25% - 16px);
+    width: calc(25% - 15px);
 }
 
 .activities-cards .card {
@@ -322,7 +316,6 @@ footer {
     background-color: var(--main-bg-color);
     margin-top: 30px;
     padding: 10px 30px;
-    box-sizing: border-box;
 }
 
 .footer-columns {
@@ -452,7 +445,7 @@ footer {
     }
 
     .activities-cards .card img {
-        height: 150px;
+        height: 250px;
     }
 
     .activities-cards .card h3 {
@@ -596,6 +589,10 @@ footer {
 
     .activities-cards a .card {
         width: 100%;
+    }
+
+    .activities-cards .card img {
+        height: 150px;
     }
 
     .footer-columns {
