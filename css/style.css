@@ -80,10 +80,11 @@ a {
 /****** header ***********/
 
 header {
-    display: grid;
-    grid-template-columns: 1fr;
     width: 100%;
     padding-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -505,7 +506,7 @@ footer {
         border-bottom: 2px solid lightgray;
     }
 
-    nav ul li a a:hover {
+    nav ul li a:hover {
         color: var(--main-color);
         border-top: none;
         border-bottom: 2px var(--main-color) solid;
@@ -563,7 +564,7 @@ footer {
         border-radius: unset;
     }
 
-    .hebergements-and-populaires section[class="populaires"] {
+    .hebergements-and-populaires section[class="hebergements"] {
         background-color: unset;
     }
 
@@ -577,10 +578,6 @@ footer {
     }
 
     .hebergements-cards a {
-        width: 100%;
-    }
-
-    .activities {
         width: 100%;
     }
 
